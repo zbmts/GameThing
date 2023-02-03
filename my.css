@@ -1,0 +1,41 @@
+
+body{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  background-size: cover;
+}
+
+  
+#gamearea{
+  position: absolute;
+  margin: 20px auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:600px;
+  width:800px;
+  border-radius: 10px;
+  color: yellow;
+  padding:20px;
+  display: inline-block;
+}
+
+
+  input{
+    color: blue;
+    background-color: black;
+    border: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+
+  input:focus {
+    outline: none !important;
+    border-color: #bbf902;
+    box-shadow: 0 0 10px #bbf902;
+  }
